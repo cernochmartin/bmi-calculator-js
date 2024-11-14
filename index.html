@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Kalkulačka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Kalkulačka</h1>
+        <div class="form-group">
+            <label for="height">Výška (cm):</label>
+            <input type="number" id="height" placeholder="Např. 185">
+        </div>
+        <div class="form-group">
+            <label for="weight">Váha (kg):</label>
+            <input type="number" id="weight" placeholder="Např. 75">
+        </div>
+        <button onclick="calculateBMI()">Vypočítat BMI</button>
+        <div id="result" />
+    </div>
+    <script src="script.js" />
+</body>
+</html>
